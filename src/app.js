@@ -6,6 +6,10 @@ const app=express();
 
 
 
+app.get('/',(req,res)=>{
+    res.status(201).send("Hello World");
+})
+
 
 
 
